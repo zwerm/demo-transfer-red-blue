@@ -46,7 +46,7 @@ Additionally you have to create an IAM Access key and secret. Please follow [our
 ## Connect bots to Zwerm
 Now that Red and Blue are ready to go, you can connect them to Zwerm. Open the [Zwerm IAM console](https://iam.zwerm.io/) and select "Add a bot" on your dashboard. If you haven't set up a team yet, you will have to [create one first](https://iam.zwerm.io/settings#/teams).
 
-The "Create a new bot" form opens. Enter "RedBlue" as the bot name and the bot ID will be filled in automatically. Select "Dialogflow" as engine and set it to API Version V2. Choose and upload the authentication key file you have created in the previous section. Give it the label "Blue". Click save and you will be taken to the overview page of your bot.
+The "Create a new bot" form opens. Enter "RedBlue" as the bot name and the bot ID will be filled in automatically. Select "Dialogflow" as engine and set it to API Version V2. Choose and upload the authentication key file you have created in the previous section. Give it the label "Blue". Click Create and you will be taken to the overview page of your bots. Click the bot name.
 
 Next, you will need to connect Red. In the settings list on the left, select "Engines". Choose "Amazon Lex" in the drop-down list and select "Add" to open the "Add engine" form. Give this engine the label "Red" and fill in the form with the values you noted down from the first part ("Build Red on Amazon Lex"). Select "Save" to finish connecting Red to Zwerm.
 
@@ -116,7 +116,7 @@ Now that you are talking to Red, what about switching back to Blue? It's a very 
 }
 ```
 
-Next scroll further down and click "Save Intent", then click "Build" in the top right corner and confirm in the modal. This will take a couple of seconds, but once done click the blue "Publish" button next to it, choose the "demo" alias and click "Publish" again. (Note: It might take a while until you receive the latest version of the Lex bot. It's best to use an anonymous user in Zwerm's testing tool.)
+Next scroll further down and click "Save Intent", then click "Build" in the top right corner and confirm in the pop-up. This will take a couple of seconds, but once done click the blue "Publish" button next to it, choose the "demo" alias and click "Publish" again. (Note: It might take a while until you receive the latest version of the Lex bot. It's best to use an anonymous user in Zwerm's testing tool.)
 
 That's it! You can now switch between your bots as you will. When talking to "Red", try some of these messages:
 * Talk to Blue
