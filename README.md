@@ -99,4 +99,26 @@ Try it out for yourself and send your Blue bot one of these messages:
 * Go away!
 
 
-Now that you are talking to Red, what about switching back to Blue? It's the same process. Open the "Red" bot in AWS.
+Now that you are talking to Red, what about switching back to Blue? It's a very similar process. Open the "Red" bot in AWS. Select the "TalkToBlue" intent in the left column. Scroll down to responses and click "Add Message". Change the type to "Custom Markup" and copy and paste the following code into the editor field. Don't forget to change to replace `TEAM-NAME` with the name of your team and `BLUE-ENGINE-ID` with the value from one of the previous steps.
+
+```json
+{
+  "$StaMP": true,
+  "type": "event",
+  "event": "zwerm.handover",
+  "payload": {
+    "route": "TEAM-NAME/redblue/BLUE-ENGINE-ID",
+    "event": {
+      "event": "zwerm.welcome",
+      "payload": {}
+    }
+  }
+}
+```
+
+Next scroll further down and click "Save Intent", then click "Build" in the top right corner and confirm in the modal. This will take a couple of seconds, but once down click the blue "Publish" button next to it, choose the "demo" alias and click "Publish" again. (Note: It might take a while until you will receive the latest version of the Lex bot. It's best to use an anonymous user in Zwerm's testing tool.)
+
+This was it! You can now switch between your bots as you will. When talking to "Red", try some of these messages:
+* Talk to Blue
+* Do something else
+* Talk to the other bot
