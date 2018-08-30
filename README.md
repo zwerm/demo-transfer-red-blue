@@ -21,7 +21,7 @@ In order to re-build this example, you will need:
 * A [Zwerm developer account](https://iam.zwerm.io/register), which is free while in public beta.  
 
 ## Build "Blue" on Dialogflow
-Download the [Blue bot archive](./Blue/demo-blue.zip) we have prepared for easy import on Dialogflow.
+Download the [Blue bot archive](https://github.com/zwerm/demo-transfer-red-blue/blob/master/Blue/demo-blue.zip?raw=true) we have prepared for easy import on Dialogflow.
 
 In the Dialogflow Console, open the agent list drop-down menu in the left navigation. Select "Create New Agent" at the bottom. In the form, enter "demo-blue" as agent name, select "English -en" as Default Language (this is normally preselected) and choose a default timezone. Either create a new Google Project or choose an existing one. Click "Create" in the top right corner to continue.
 
@@ -30,7 +30,7 @@ After the agent has been created you'll be taken to its list of intents. Ignore 
 Last, follow [Dialogflow's guide](https://dialogflow.com/docs/reference/v2-auth-setup) to retrieve your authentication key and keep it safe. You will need it later to set up the agent with Zwerm.
 
 ## Build "Red" on Amazon Lex 
-Download the [Red bot archive](./Red/Red_Bot_LEX.zip) we have prepared for easy import on Amazon Lex.
+Download the [Red bot archive](https://github.com/zwerm/demo-transfer-red-blue/blob/master/Red/Red_Bot_LEX.zip?raw=true) we have prepared for easy import on Amazon Lex.
 
 Open the AWS Console and navigate to the [Amazon Lex service home](https://us-west-2.console.aws.amazon.com/lex/home?region=us-west-2#bots:). Select "Actions" and "Import". In the pop up dialog, open the file you've just downloaded and click "Import" again. 
 
