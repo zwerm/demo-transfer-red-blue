@@ -18,7 +18,7 @@ Following this tutorial, you will:
 In order to re-build this example, you will need:
 * A free [AWS Account](https://aws.amazon.com/account/). Note: The free tier will cover this example, however if you have or will exceed the limits of it, charges may apply.
 * A free [Dialogflow account](https://dialogflow.com/docs/getting-started/create-account). The free [Standard Edition](https://dialogflow.com/pricing) will cover this example.
-* A [Zwerm developer account](https://iam.zwerm.io/register), which is free while in public beta.  
+* A [Zwerm developer account](https://iam.zwerm.io/register), which is free.  
 
 ## Build "Blue" on Dialogflow
 Download the [Blue bot archive](https://github.com/zwerm/demo-transfer-red-blue/blob/master/Blue/demo-blue.zip?raw=true) we have prepared for easy import on Dialogflow.
